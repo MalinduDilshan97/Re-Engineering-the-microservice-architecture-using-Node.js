@@ -1,0 +1,32 @@
+{
+  "name": "task-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "bluebird": "^3.7.2",
+    "bunyan": "^1.8.14",
+    "bunyan-format": "^0.2.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "discovery-client-eureka": "^1.1.5",
+    "express": "~4.16.1",
+    "http-status": "^1.4.2",
+    "ioredis": "^4.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.27",
+    "morgan": "~1.9.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
